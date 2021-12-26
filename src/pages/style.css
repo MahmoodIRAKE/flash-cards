@@ -18,12 +18,22 @@
 }
 
 @media  (max-width: 600px) {
+    .container{
+        width: 100vw;
+        flex-direction: column;
+        position: relative;
+    }
     .box1{
         width:100vw;
-        border-bottom: 1px solid rgb(172, 172, 172);
+        
+        z-index: 1;
+        
     }
     .box2{
+        position: relative;
         width: 100vw;
-    
+        height: 50vh;
+  overflow-y:scroll;
+        border-bottom: 5px solid rgb(172, 172, 172);
     }
   }
