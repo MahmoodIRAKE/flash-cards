@@ -1,0 +1,29 @@
+.error{
+    height: 90vh;
+    width: 100vw; 
+}
+.container{
+    width: 100vw;
+    flex-wrap: wrap;
+}
+.box1{
+    width:30vw;
+    border-left: 1px solid rgb(172, 172, 172);
+    height: 100vh;
+}
+.box2{
+    width: 70vw;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+@media  (max-width: 600px) {
+    .box1{
+        width:100vw;
+        border-bottom: 1px solid rgb(172, 172, 172);
+    }
+    .box2{
+        width: 100vw;
+    
+    }
+  }
